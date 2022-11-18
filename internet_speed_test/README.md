@@ -1,20 +1,13 @@
 # internet_speed_test
 
-A new Flutter plugin project.
+Test internet speed from the closest server
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 
 ```
- import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
@@ -133,5 +126,6 @@ class _SpeedTestAppState extends State<SpeedTestApp> with SpeedtestHandler {
   }
 }
 
-
 ```
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](buymeacoffee.com/dkmke)
