@@ -3,7 +3,7 @@
 Test internet speed from the closest server
 
 ## Getting Started
-
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](buymeacoffee.com/dkmke)
 
 
 ```
@@ -128,4 +128,4 @@ class _SpeedTestAppState extends State<SpeedTestApp> with SpeedtestHandler {
 
 ```
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](buymeacoffee.com/dkmke)
+
