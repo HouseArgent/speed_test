@@ -1,23 +1,11 @@
+
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
-import 'core/speed_test_handler.dart';
-import 'internet_speed_test_platform_interface.dart';
+import 'speed_test_handler.dart';
 
-/// An implementation of [InternetSpeedTestPlatform] that uses method channels.
-class MethodChannelInternetSpeedTest extends InternetSpeedTestPlatform {
-  /// The method channel used to interact with the native platform.
-  @visibleForTesting
-  final methodChannel = const MethodChannel('internet_speed_test');
-
-  @override
-  Future<String?> getPlatformVersion() async {
-    final version = await methodChannel.invokeMethod<String>('getPlatformVersion');
-    return version;
-  }
-}
 
 class SpeedTest {
   late SpeedtestHandler speedtestHandler;

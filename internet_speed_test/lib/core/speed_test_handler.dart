@@ -1,3 +1,4 @@
+
 abstract class SpeedtestHandler {
   onDownloadUpdate(var downlodData);
 

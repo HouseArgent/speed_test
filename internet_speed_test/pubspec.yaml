@@ -1,8 +1,9 @@
 name: internet_speed_test
 description: A new Flutter plugin project.
 version: 0.0.1
-homepage:
 
+homepage: https://github.com/HouseArgent/speed_test/tree/main/internet_speed_test
+repository: https://github.com/HouseArgent/speed_test/tree/main/internet_speed_test
 environment:
   sdk: '>=2.18.2 <3.0.0'
   flutter: ">=2.5.0"
